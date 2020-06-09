@@ -1,0 +1,22 @@
+// CoreUI Icons Set
+@import '~@coreui/icons/css/coreui-icons.css';
+// Import Flag Icons Set
+@import '~flag-icon-css/css/flag-icon.min.css';
+// Import Font Awesome Icons Set
+
+// Override font-awesome's $fa-font-path variavble & point it to the
+// 'node_modules' relative path. This is so GatsbyJs's Webpack configuration
+// resolves the paths to our font files.
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts' !default;
+
+// Any additional overrides can go here
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+
+// @import '~font-awesome/css/font-awesome.min.css';
+// Import Simple Line Icons Set
+@import '~simple-line-icons/css/simple-line-icons.css';
+// Import Main styles for this application
+@import '../scss/style.scss';
